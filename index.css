@@ -39,3 +39,38 @@ button:hover{
     cursor: pointer;
     background-color: #BD8C70;
 }
+.add-name{
+    background-color: #fc8b3a;
+}
+.add-color{
+    background-color: #e4ae42;
+}
+.delete-all-color{
+    background-color: #fc8b3a;
+}
+.add-name:hover{
+    background-color: #b28222;
+}
+.add-color:hover{
+    background-color: #F9AF1F;
+}
+.delete-all-color:hover{
+    background-color: #FA710D;
+}
+ul{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    row-gap: 8px;
+    padding: 0;
+}
+ul li{
+    background-color: #FBDF7C;
+    padding: 8px;
+    border-radius: 8px;
+}
+ul li:hover{
+    background-color: #EEBF1A;
+    cursor: pointer;
+}
